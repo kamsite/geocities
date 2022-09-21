@@ -24,7 +24,8 @@ body {
 .gem {
     position: absolute;
     left: 600px;
-    top: 1800px;
+    top: 1850px;
+    z-index: 1;
 }
 
 .sheet {
@@ -75,6 +76,18 @@ body {
     transition: opacity 1s;
 }
 
+.byebye {
+    position: absolute;
+right: 20px;
+}
+
+.inspo {
+    position: absolute;
+    top: 1900px;
+    left: 200px;
+    border: dotted grey;
+    background-color: black;
+}
 .parent:hover .overlay {
     opacity: 1;
 }
