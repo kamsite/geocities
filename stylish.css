@@ -78,7 +78,7 @@ body {
 
 .byebye {
     position: absolute;
-right: 20px;
+    right: 20px;
 }
 
 .inspo {
@@ -88,6 +88,7 @@ right: 20px;
     border: dotted grey;
     background-color: black;
 }
+
 .parent:hover .overlay {
     opacity: 1;
 }
